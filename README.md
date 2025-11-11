@@ -35,15 +35,22 @@ Train a model:
 - Select "Model Trainer" in GUI.
 - Enter epochs (e.g., 1000).
 - Models and visuals generated automatically.
+- Example visuals include SHAP plots and prective performance as shown below
+
+<img width="800" height="270" alt="summary_shap_plot_velocity" src="https://github.com/user-attachments/assets/9d84728a-4d34-4a61-b1b7-03b20e2c34b0" />
+
+<img width="640" height="480" alt="train_test_scatterplots_velocity" src="https://github.com/user-attachments/assets/dd08ec04-08d1-4a31-9eb7-0e89a7e50f0b" />
 
 Run controller:
 - Select "Controller".
 - Input parameters (e.g., period size=1, periods=100, moves=10, start=0).
-- View predicted control actions and plots.
+- View predicted control actions and plots as shown below
+
+<img width="1568" height="882" alt="controller_prediction_7ft" src="https://github.com/user-attachments/assets/6eac3bc0-9e94-4963-b9ec-58892f962350" />
 
 ## Limitations
 - Discretized action space; no continuous optimization.
-- Single-model group; extend for multi-variable systems.
+- Extention for multi-variable systems needs to be improved.
 - No real-time integration; simulation-only.
 
 ## References
